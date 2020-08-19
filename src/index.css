@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #212121;
+  box-sizing: border-box;
+ 
 }
 
 code {
@@ -15,11 +17,23 @@ code {
 
 a {
   color : #eee;
+  font-family: sans-serif;
+  text-decoration: none;
 }
+
 ul {
   color: #eee;
   display: flex;
-  justify-content: space-around
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+ 
+}
+ li > a{
+  color: #8DE98D;
+  font-size: 2rem;
+  font-weight: bold;
+  
 }
 h1 {
   color: #eee;
@@ -28,4 +42,12 @@ h1 {
 .app{
   margin-right: 20%;
   margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+div, h1, a {
+  text-align: center;
 }
