@@ -1,8 +1,13 @@
 {
   "name": "Mansour Tech",
-  "short_name": "Mansour PWA",
+  "short_name": "Mansour",
   "orientation": "portrait-primary",
   "icons": [
+    {
+      "src": "icon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
     {
       "src": "logo72x72.png",
       "type": "image/png", 
